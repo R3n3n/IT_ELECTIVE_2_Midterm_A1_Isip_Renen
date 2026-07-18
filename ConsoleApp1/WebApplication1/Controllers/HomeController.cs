@@ -30,6 +30,23 @@ public class HomeController : Controller
 
     public IActionResult Skills()
     {
+        ViewData["Program1"] = "C#";
+        ViewData["Program2"] = "Java";
+        ViewData["Program3"] = "Python";
+        ViewData["Program4"] = "VB.NET";
+        ViewData["Program5"] = "C";
+        ViewData["WebTech1"] = "HTML";
+        ViewData["WebTech2"] = "CSS";
+        ViewData["WebTech3"] = "Bootstrap";
+        ViewData["WebTech4"] = "ASP.NET Core MVC";
+        ViewData["Data1"] = "SQL Server";
+        ViewData["Data2"] = "MySQL";
+        ViewData["Data3"] = "phpMyAdmin";
+        ViewData["DevTool1"] = "Visual Studio";
+        ViewData["DevTool2"] = "VS Code";
+        ViewData["DevTool3"] = "PyCharm";
+        ViewData["DevTool4"] = "BlueJ";
+        ViewData["DevTool5"] = "GitHub";
         return View();
     }
 
