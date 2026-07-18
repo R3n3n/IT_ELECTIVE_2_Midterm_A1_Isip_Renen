@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "Contacts";
+}
+
+<section id="contact" class="py-5">
+
+    <div class="container">
+
+        <h2 class="fw-bold text-center mb-5">
+            Contact Me
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="card shadow border-0">
+
+                    <div class="card-body p-5">
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4">
+
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-envelope-fill text-info me-2"></i>
+                                    Email
+                                </h5>
+
+                                <p>
+                                    @ViewData["Email"]
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-telephone-fill text-info me-2"></i>
+                                    Mobile Number
+                                </h5>
+
+                                <p>
+                                    @ViewData["MobileNum"]
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-github text-info me-2"></i>
+                                    GitHub
+                                </h5>
+
+                                <p>
+                                    @ViewData["Github"]
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-facebook text-info me-2"></i>
+                                    Facebook
+                                </h5>
+
+                                <p>
+                                    @ViewData["FB"]
+                                </p>
+
+                            </div>
+
+                            <div class="text-center mt-3">
+
+                                <button class="btn btn-primary btn-lg px-5">
+                                    <i class="bi bi-download me-2"></i>
+                                    Download Resume
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
